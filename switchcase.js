@@ -14,7 +14,6 @@ switch(day) {
         console.log("just another day")
 }
 
-
 let food = "chilli"
 switch(food){
     case "chocolate":

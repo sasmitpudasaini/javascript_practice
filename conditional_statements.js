@@ -16,3 +16,25 @@ else{
     console.log("it's too less")
 }
 
+
+
+const z = 23
+
+if(a<=0){
+    console.log("it is a odd number")
+}
+else if (a>=0){
+    console.log("it is a even number")
+}
+else{
+    console.log("it's zero")
+}
+
+const d= 27
+
+if(d < 20){
+    console.log("it's between 10 and 20")
+}
+else if (d > 10){
+    console.log("it's not between 10 and 20")
+}

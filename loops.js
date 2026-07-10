@@ -10,3 +10,19 @@ for ( i = 1; i<=n; i++){
 }
 console.log("sum of first " +n+ " natural number is " +(sum += i))
 
+// while loop
+
+let j=1
+
+while (j<=10){
+    console.log(j)
+    j++
+}
+
+// do while loop
+
+let m=1
+do{
+    console.log(m)
+    m++
+}while (m<=10)

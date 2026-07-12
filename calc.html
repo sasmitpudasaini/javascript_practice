@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <div class="calcbox">
+        <h1>CASIO</h1>
+    </div>
+    
+    <div id="screen">0</div>
+    
+    <div class="buttons-grid">
+        <button onclick="clearScreen()" class="btn-clear">C</button>
+        <button onclick="pressOperator('/')">/</button>
+        <button onclick="pressOperator('*')">*</button>
+        <button onclick="pressOperator('-')">-</button>
+        
+        <button onclick="pressNum(7)">7</button>
+        <button onclick="pressNum(8)">8</button>
+        <button onclick="pressNum(9)">9</button>
+        <button onclick="pressOperator('+')">+</button>
+        
+        <button onclick="pressNum(4)">4</button>
+        <button onclick="pressNum(5)">5</button>
+        <button onclick="pressNum(6)">6</button>
+        <button onclick="calculate()" class="btn-equal">=</button>
+        
+        <button onclick="pressNum(1)">1</button>
+        <button onclick="pressNum(2)">2</button>
+        <button onclick="pressNum(3)">3</button>
+        <button onclick="pressNum(0)">0</button>
+    </div>
+</div>
+
+<script src="simple_simple_calculator.js"></script>

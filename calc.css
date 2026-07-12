@@ -1,4 +1,4 @@
-/* The Screen Display */
+
 #screen {
     width: 85%;
     height: 60px;
@@ -13,7 +13,7 @@
     font-family: monospace;
 }
 
-/* Creating a 4x4 Grid for the buttons */
+
 .buttons-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -21,7 +21,6 @@
     width: 85%;
 }
 
-/* Styling the buttons */
 button {
     padding: 15px;
     font-size: 1.2rem;
@@ -33,14 +32,14 @@ button {
 }
 
 button:active {
-    background-color: #ddd; /* Visual click effect */
+    background-color: #ddd; 
 }
 
-/* Styling specific buttons */
+
 .btn-clear { background-color: #ff6b6b; color: white; }
 .btn-equal { 
     background-color: #51cf66; 
     color: white;
-    grid-row: span 2; /* Spans two rows tall to look nice */
+    grid-row: span 2;
     height: 100%;
 }
